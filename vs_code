@@ -1,0 +1,10 @@
+class Bank_Account:
+   def __init__(self,balance,pin,I'd):
+          self.balance = balance
+          self.pin = pin
+          self.Id = I'd 
+   def show_data(self):
+          print("The balance is "self.balance",and the pin is "self.pin",and the id is "self.Id")
+
+obj=Bank_Account(25000,12345,27932)
+obj.show_data()
